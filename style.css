@@ -22,6 +22,10 @@ body {
     height: 100%;
 }
 
+html {
+    background-color: var(--RED);
+}
+
 /*
   Typographic tweaks!
   4. Add accessible line-height
@@ -30,7 +34,7 @@ body {
 body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
-    background-color: var(--RED);
+    background: url(images/bg-intro-mobile.png) 50% top;
 }
 
 /*
@@ -97,7 +101,6 @@ h6 {
 
 .main-container {
     padding: 5.65rem max(7%, 1.5rem) 4.3rem max(7%, 1.5rem);
-    background: url(images/bg-intro-mobile.png) 50% top;
     text-align: center;
 }
 
@@ -241,22 +244,22 @@ h6 {
         display: flex;
         justify-content: center;
         align-items: center;
+        background: url(images/bg-intro-desktop.png) 50% top;
     }
 
     .main-container {
         display: flex;
         padding: 0 12.1%;
-        background: url(images/bg-intro-desktop.png) 50% top;
     }
 
     .top-part {
         text-align: left;
         margin-top: 10.8rem;
-        padding-right: 2rem;
+        padding-right: 3rem;
     }
 
     .bottom-part {
-        min-width: 51%;
+        min-width: 49%;
         /*52% for original design width*/
     }
 
